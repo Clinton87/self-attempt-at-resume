@@ -1,0 +1,63 @@
+h1, h2, h3, h4, p  {
+    text-align: center;
+}
+
+h2  {
+    text-decoration: underline;
+}
+
+h4  {
+    background-color: rgba(32, 32, 29, 0.3);
+}
+
+p   {
+    color:rgba(3, 0, 0, 0.5);
+    font-size: 20px;
+    text-decoration-thickness: 5px;
+    background-color: rgba(144, 170, 49, 0.2);
+    font-weight: bold;
+}
+
+img {
+    text-align: center;
+    display: flex;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: rgb(48, 40, 40);
+    padding: 120px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(11, 17, 11);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: rgba(144, 170, 49, 0.2);
+}
+
+a:hover {
+    color: blue;
+    transition: .5s ease;
+    font-size: xx-large;
+    margin: 10px;
+}
+
+body    {
+    background-image: url("images/brick_wall.jpg");
+    background-size: cover;
+}
+
+.navbar     {   
+    text-align: center;
+}
+
+footer  {
+    text-align: center;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+aside   {
+    color: blue;
+}
