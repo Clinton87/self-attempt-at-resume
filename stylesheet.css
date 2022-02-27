@@ -22,10 +22,9 @@ img {
     text-align: center;
     display: flex;
     border-radius: 50%;
-    display: block;
     margin: auto;
     border: rgb(48, 40, 40);
-    padding: 120px;
+    padding: 20px;
 }
 
 a {
@@ -39,8 +38,11 @@ a {
 a:hover {
     color: blue;
     transition: .5s ease;
-    font-size: xx-large;
-    margin: 10px;
+    font-size: x-large;
+    margin: 5px;
+    padding: 5px;
+    transition-timing-function: linear;
+    transitiion: transform 0.7s ease-in;
 }
 
 body    {
