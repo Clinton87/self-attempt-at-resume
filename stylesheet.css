@@ -18,7 +18,7 @@ p   {
     font-weight: bold;
 }
 
-img{
+img {
     text-align: center;
     display: flex;
     border-radius: 50%;
@@ -46,7 +46,7 @@ a:hover {
 }
 
 body    {
-    background-image: url("images/brick-wall.jpg");
+    background-image: url("images/brick_wall.jpg");
     background-size: cover;
 }
 
