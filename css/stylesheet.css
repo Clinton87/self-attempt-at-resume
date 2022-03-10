@@ -2,6 +2,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+html    {
+    background-color: #14535f;
+}
+
 h2, h3, h4, p  {
     text-align: center;
     color: #660816;
@@ -25,7 +29,7 @@ img {
     border-radius: 50%;
     margin: auto;
     border: rgba(48, 40, 40, 0.808);
-    padding: 20px;
+    padding: 20px 0 20px 0;
 }
 
 a {
@@ -39,11 +43,15 @@ a {
 a:hover {
     /*color: #205f6d;*/
     color: #660816;
-    transition: .5s ease;
-    font-size: x-large;
+    transition: .5s;
     padding: 5px 0 5px 0;
     transition-timing-function: linear;
-    border-radius: 30%;
+}
+
+a:hover img     {
+    transition: .5s;
+    transform: scale(110%);
+    border-radius: 40%;
 }
 
 body    {
@@ -62,23 +70,16 @@ footer  {
 
 footer:hover    {
     color: #660816;
-    transition-timing-function: linear;
     border-radius: 30%;
 }
 
-aside   {
-    color: blue;
-}
-
 .footbar    {
-    padding: 10px 0 10px 0;
     background-color: rgba(90, 99, 40, 0.123);
 }
 
 header  {
     background-color: rgba(90, 99, 40, 0.13);
     color: rgba(231, 214, 214, 0.849);
-    text-decoration: wavy;
     text-align: center;
 }
 
