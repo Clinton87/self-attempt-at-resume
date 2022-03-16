@@ -4,10 +4,12 @@
 
 html    {
     background-color: black;
+    padding: 20px 0;
 }
 
 h1, h2, h3, h4, p  {
     text-align: center;
+    padding-bottom: 5px;
 }
 
 h2, h3  {
