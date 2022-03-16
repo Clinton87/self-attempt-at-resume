@@ -3,15 +3,16 @@
 }
 
 html    {
-    background-color: #14535f;
+    background-color: black;
+    padding: 20px 0;
 }
 
-h2, h3, h4, p  {
+h1, h2, h3, h4, p  {
     text-align: center;
-    color: #660816;
+    padding-bottom: 5px;
 }
 
-h2  {
+h2, h3  {
     text-decoration: underline;
 }
 
@@ -19,8 +20,11 @@ p   {
     color:rgba(231, 214, 214, 0.849);
     font-size: 20px;
     text-decoration-thickness: 10px;
-    background-color: rgba(82, 97, 28, 0.062);
     font-weight: bold;
+}
+
+#main   {
+    opacity: .8;
 }
 
 img {
@@ -32,70 +36,73 @@ img {
     padding: 20px 0 20px 0;
 }
 
+.colleges  {
+    color: black;
+}
+
+.colleges:hover    {
+    color: white;
+}
+
 a {
     text-decoration: none;
-    color:rgb(11, 17, 11);
+    color:white;
     font-size: x-large;
     font-weight: bold;
-    background-color: rgba(82, 97, 28, 0.2);
 }
 
 a:hover {
     /*color: #205f6d;*/
     color: #660816;
-    transition: .5s;
-    padding: 5px 0 5px 0;
+    transition: .05s;
     transition-timing-function: linear;
 }
 
 a:hover img     {
     transition: .5s;
     transform: scale(110%);
+    border-radius: 100%;
+    animation-name: imageAnimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes imageAnimate {
+    0% {transform: rotate(0deg);
+        transform: rotate(360deg);
+        border-radius: 100%;}
+    50% {transform: rotate(-30deg);}
+    100% {transform: rotate(30deg);}
 }
 
 body    {
-    background-color: #205f6d;
+    background-color: #660816;
+    padding: 10px;
+
 }
 
 .navbar     {   
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footbar  {
+    padding: 30px;
+    background-color: black;
     text-align: center;
-}
-
-footer  {
-    text-align: center;
-    margin: 10px;
-    border-radius: 50px;
-}
-
-footer:hover    {
-    color: #660816;
-    border-radius: 30%;
-}
-
-.footbar    {
-    background-color: rgba(90, 99, 40, 0.123);
 }
 
 header  {
-    background-color: rgba(90, 99, 40, 0.13);
     color: rgba(231, 214, 214, 0.849);
     text-align: center;
 }
 
-.icons     {
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-}
+.icons  {
+    display: flex;
+    justify-content: space-around;
 
-.logo:hover   {
-    border-radius: 100%;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: imageAnimate;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
 }
