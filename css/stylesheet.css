@@ -81,3 +81,21 @@ header  {
     color: rgba(231, 214, 214, 0.849);
     text-align: center;
 }
+
+.icons     {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.logo:hover   {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: imageAnimate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
